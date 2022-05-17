@@ -22,12 +22,12 @@ vim.cmd([[
 		autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
 	augroup END
 ]])
-vim.cmd('colorscheme solarized')
---vim.opt.background = 'dark'
-vim.g.solarized_italics = 1
-vim.g.solarized_visibility = 'normal'
-vim.g.solarized_diffmode = 'normal'
-vim.g.solarized_statusline = 'normal'
+--vim.cmd('colorscheme solarized')
+----vim.opt.background = 'dark'
+--vim.g.solarized_italics = 1
+--vim.g.solarized_visibility = 'normal'
+--vim.g.solarized_diffmode = 'normal'
+--vim.g.solarized_statusline = 'normal'
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menu,menuone,noselect'
 -- Tab Options

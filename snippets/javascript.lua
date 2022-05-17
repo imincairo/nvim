@@ -148,5 +148,40 @@ return {
     }
   ),
 
+  s(
+    {
+      trig = "reactcomponent",
+      name = "React Component",
+      dscr =
+      [=[import React from "react";
+         
+         const {NAME} = () => {
+          
+          return (
+            <div classname="{NAME}">
+              <h2>{NAME}</h2>{EXIT POINT}
+            </div>
+          );
+         };
+
+         export default {NAME}
+      ]=]
+    },
+    {
+      t({"import React from 'react';",
+         "",
+         "const "}), i(1, "Name"), t({" = () => {",
+         "",
+         "  return (",
+         "    <div classname='"}), f(copy, 1), t({"'>",
+         "      <h2>"}), f(copy, 1), t("</h2>"), i(0), t({"",
+         "    </div>",
+         ");",
+         "};",
+         "",
+         "export default "}), f(copy, 1)
+    }
+  ),
+
 },{}
 
